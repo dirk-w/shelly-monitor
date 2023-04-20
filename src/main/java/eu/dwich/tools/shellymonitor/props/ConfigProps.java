@@ -8,9 +8,6 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 public class ConfigProps {
 
-  @Value("${eu.dwich.scheduler.cron}")
-  private String cronString;
-
   @Value("${eu.dwich.shelly.url}")
   private String shellyUrl;
 
@@ -22,11 +19,6 @@ public class ConfigProps {
 
   @Value("${eu.dwich.notification.from}")
   private String notificationFrom;
-
-
-  public String getCronString() {
-    return cronString;
-  }
 
   public String getShellyUrl() {
     return shellyUrl;
