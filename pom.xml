@@ -10,7 +10,7 @@
   </parent>
   <groupId>eu.dwich.tools</groupId>
   <artifactId>shelly-monitor</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>shelly-monitor</name>
   <description>Demo project showing a scheduled rest call with e-mail function</description>
   <properties>
